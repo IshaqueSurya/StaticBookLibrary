@@ -1,4 +1,4 @@
-# StaticBookLibrary
+# V-Library
 # This is a project on the problem statement 1 (V-Library)
 In this project we have used HTML CSS and JQuery along with Bootstrap to create a static page that lets the user login and register and view all the subject pdfs and ppt uploaded by the admin.
 
