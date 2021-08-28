@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">V-Library</a>
+    </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Login form</h2>
+
+            <form action = "main.html" class="form-inline">
+                <div class="form-group">
+                    <input id="email-text" type="text" class="form-control mb-2" placeholder="Email Address">
+                </div>
+
+                <div class="form-group">
+                    <input id="pass-text" type="password" class="form-control mx-sm-3 mb-2" placeholder="Password">
+                </div>
+                <button id="login-button" class="btn btn-primary mb-2">Login</button>
+            </form>
+            <h2 id="status"></h2>
+            
+            <h5 class="my-5">If you are new <a href="registration-form.html">click here to register</a>.</h5>
+        </div>
+    </div>
+</body>
+<script src="js/app.js">
+</script>
+
+</html>
